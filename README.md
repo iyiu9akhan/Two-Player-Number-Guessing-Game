@@ -8,3 +8,8 @@ Features:
 2. Input validation for names and numbers |
 3. Three attempts to guess the number |
 4. Dynamic UI updates without page reload |
+
+Run Locally (follow step by step) : 
+ 1. git clone https://github.com/iyiu9akhan/Two-Player-Number-Guessing-Game.git
+ 2. open the project folder
+ 3. double click on the index.html file and it will open directly in your default web browser
