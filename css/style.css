@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#register,
+#box_one,
+#box_two,
+#result_box {
+  margin: 100px auto;
+  width: 800px;
+  justify-items: center;
+  background-color: rgba(255, 255, 255, 0.493);
+  box-shadow: 8px 4px 42px -16px rgba(0,0,0,0.4);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+}
+#register .heading,
+#box_one .heading,
+#box_two .heading,
+#result_box .heading {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #316ff6;
+  text-transform: capitalize;
+}
+#register .register_input1,
+#register .register_input2,
+#box_one .input_box_one,
+#box_two .input_box_two {
+  border: 2px solid rgba(49, 111, 246, 0.555);
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+  padding: 0 15px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  display: block;
+  margin: 20px 0;
+}
+
+#register input:focus,
+#box_one input:focus,
+#box_two input:focus {
+  outline: none;
+  border: 2px solid #316ff6;
+  transition: all linear 0.3s;
+}
+#register .register_btn,
+#box_one .push_data_one,
+#box_two .push_data_two,
+#result_box .play_again {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #316ff6;
+  background-color: #316ff6;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#register .register_error,
+#box_one .error_msg_one,
+#box_two .error_msg_two {
+  color: hwb(0 0% 0% / 0.63);
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#box_one .data_from_registration1,
+#box_one .data_from_registration2,
+#box_two .data_from_registration3,
+#box_two .data_from_registration4 {
+  margin-bottom: 13px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #20bf55;
+  text-transform: capitalize;
+}
+#result_box .result {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #20bf55;
+  margin-bottom: 25px;
+}
+#box_two .attempt_msg{
+  color: rgba(255, 0, 0, 0.801);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
